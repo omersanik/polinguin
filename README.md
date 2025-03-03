@@ -1,15 +1,12 @@
-Polinguin - Learn Polish Interactively
+# React + Vite
 
-Polinguin is an interactive platform designed to help learners master the Polish language through engaging exercises, grammar explanations, and real-life examples. The project includes interactive tools such as a Polish tense transformer, case declension trainer, and vocabulary quizzes.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Features
+Currently, two official plugins are available:
 
-Polish Tense Transformer: Visualize and compare different Polish tenses dynamically.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Case Declension Trainer: Practice changing words according to Polish grammatical cases.
+## Expanding the ESLint configuration
 
-Vocabulary & Slang: Learn essential Polish words, phrases, and slang terms.
-
-Fill-in-the-Blank Exercises: Test yourself with interactive exercises that track your progress.
-
-Sentence Examples & Translations: See Polish grammar in action with clear explanations and English translations.
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
